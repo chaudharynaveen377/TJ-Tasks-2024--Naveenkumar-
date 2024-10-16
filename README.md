@@ -20,9 +20,9 @@ Add the row to the outer list.
 ## Edge case:
 If n (number of rows) is 0, the output is an empty list.
 
-**Time and Space Complexity:**
+## Time and Space Complexity:**
 
-**Time Complexity:**
+## Time Complexity:
 For each row, we iterate over the previous row to compute the current row.
 The number of elements in row i is i + 1, and the total number of elements in the triangle is the sum of the first n natural numbers, which is O(n^2).
 Thus, the time complexity is O(n^2), where n is the number of rows.
@@ -35,7 +35,7 @@ The space complexity is O(n^2) because we store all rows in the triangle.
 **Understanding Indexing**:
 One challenge was correctly indexing into the previous row to compute the values of the current row. Ensuring that the indices align correctly to sum the two adjacent numbers took some thought.
 
-Edge Case:
+## Edge Case:
 Handling the case where numRows is 0 or 1 required careful consideration to avoid index errors or incorrect results.
 Efficient Summation:
 
