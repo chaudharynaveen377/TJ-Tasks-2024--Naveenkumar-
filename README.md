@@ -9,7 +9,7 @@ Each subsequent row is built by taking the previous row, adding a 1 at the start
 ## Approach:
 # Initialization:
 We start with the first row as [1].
-We create an outer list (a list of lists) to store all the rows.
+We create an outer list (a list of lists) to store all the rows. 
 Building each row:
 
 For each subsequent row, we begin with [1].
